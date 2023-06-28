@@ -1,17 +1,18 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Bookstore {
 
-    List<Book> books = new ArrayList<>();
+    Map<Book, Integer> books = new HashMap<>();
 
-    public void addBook (Book book){
-        books.add(book);
+    public void addBook (Book book, int quantity){
+        books.put(book,quantity);
     }
     public Book findBook(String title) throws BookNotFoundExceptiont {
 
-        for(Book book : books){
-            if (book.getTitle().equals(title)){
+        for(Map.Entry<Book, Integer> entry : books.entrySet()){
+            Book book = entry.getKey();
+            if (entry.getKey().equals(title)){
                 return book;
             }
         }
@@ -20,8 +21,21 @@ public class Bookstore {
     }
     public void displayBooks(){
         System.out.println("Books in the Bookstore:");
-        for (Book book : books) {
-            System.out.println(book);
+
+        for (Map.Entry<Book, Integer> entry : books.entrySet()) {
+            System.out.println(entry);
         }
+    }
+    public void sellBook(String title, int quantity) throws InsufficientStockException {
+        for (Map.Entry<Book, Integer> entry : books.entrySet()) {
+            title.equals(entry.getKey());
+            if(entry.getValue() < quantity){
+                throw new InsufficientStockException();
+            }
+
+        }
+
+
+
     }
 }
