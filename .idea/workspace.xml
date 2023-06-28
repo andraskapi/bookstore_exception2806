@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87955885-0a8a-4ba5-96be-92b49bef559b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore exception2806.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BookNotFoundExceptiont.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bookstore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BookstoreApplication.java" afterDir="false" />
+    <list default="true" id="87955885-0a8a-4ba5-96be-92b49bef559b" name="Changes" comment="majdnem kész">
+      <change beforePath="$PROJECT_DIR$/src/BookNotFoundExceptiont.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookNotFoundExceptiont.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BookstoreApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookstoreApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +58,18 @@
       <option name="presentableId" value="Default" />
       <updated>1687970638809</updated>
     </task>
+    <task id="LOCAL-00001" summary="majdnem kész">
+      <created>1687972973909</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687972973909</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="majdnem kész" />
+    <option name="LAST_COMMIT_MESSAGE" value="majdnem kész" />
   </component>
 </project>

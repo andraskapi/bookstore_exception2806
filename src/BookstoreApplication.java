@@ -11,7 +11,13 @@ public class BookstoreApplication {
         store.addBook(ameri);
 
         store.displayBooks();
-        System.out.println(store.findBook("Pápá cumi"));
+
+
+        try{
+            System.out.println(store.findBook("Pápá cumi"));
+        }catch (BookNotFoundExceptiont exceptiont){
+            System.out.println(exceptiont.getMessage());
+        }
 
     }
 }
