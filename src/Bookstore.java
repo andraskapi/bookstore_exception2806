@@ -30,10 +30,11 @@ public class Bookstore {
         for (Map.Entry<Book, Integer> entry : books.entrySet()) {
             title.equals(entry.getKey());
             if(entry.getValue() < quantity){
-                throw new InsufficientStockException();
+                throw new InsufficientStockException("Nincs elég könyv");
             }
 
         }
+
 
 
 

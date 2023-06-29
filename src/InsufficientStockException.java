@@ -1,4 +1,5 @@
 public class InsufficientStockException extends Exception{
-    public InsufficientStockException() {
+    public InsufficientStockException(String text) {
+        super(text);
     }
 }

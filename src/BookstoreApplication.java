@@ -18,8 +18,12 @@ public class BookstoreApplication {
         }catch (BookNotFoundExceptiont exceptiont){
             System.out.println(exceptiont.getMessage());
         }
+        try {
 
-        store.sellBook("Pápá pelus",2);
+            store.sellBook("Pápá pelus", 2);
+        }catch (InsufficientStockException exception){
+            System.out.println(exception.getMessage());
+        }
 
     }
 }

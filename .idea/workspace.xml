@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87955885-0a8a-4ba5-96be-92b49bef559b" name="Changes" comment="szerintem kész">
-      <change afterPath="$PROJECT_DIR$/src/InsufficientStockException.java" afterDir="false" />
+    <list default="true" id="87955885-0a8a-4ba5-96be-92b49bef559b" name="Changes" comment="alakul a mapes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bookstore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bookstore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BookstoreApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookstoreApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InsufficientStockException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsufficientStockException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +31,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="BookstoreApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BookstoreApplication" />
@@ -74,12 +74,20 @@
       <option name="project" value="LOCAL" />
       <updated>1687973266063</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="alakul a mapes">
+      <created>1687975396898</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687975396898</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="majdnem kész" />
     <MESSAGE value="szerintem kész" />
-    <option name="LAST_COMMIT_MESSAGE" value="szerintem kész" />
+    <MESSAGE value="alakul a mapes" />
+    <option name="LAST_COMMIT_MESSAGE" value="alakul a mapes" />
   </component>
 </project>
